@@ -1,35 +1,61 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  #root {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    min-height: 100%;
-    font-size: 26px;
-    background: rgb(213, 214, 206);
-  }
-  
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  min-height: 100%;
+  font-size: 26px;
+  background: rgb(213, 214, 206);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 30px;
+  background: rgb(97, 52, 87);
+  font-size: 30px;
+  color: azure;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: 30px;
+  background: rgb(97, 52, 87);
+  color: azure;
+}
+
+#pavel_id {
+  background: rgb(189, 203, 84);
+}
