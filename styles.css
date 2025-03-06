@@ -66,3 +66,8 @@
     border: 1px solid #d45454;
     padding: 1em;
   }
+
+#mitchell_id{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(134, 78, 78);
+}  
