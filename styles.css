@@ -30,10 +30,39 @@
     gap: 30px;
     min-height: 100%;
     font-size: 26px;
-    background: rgb(213, 214, 206);
+    background: rgb(229, 238, 159);
   }
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 30px;
+    background: rgb(97, 52, 87);
+    font-size: 10px;
+    color: white;
+  }
+  
+  footer {
+    background-color: #e4bdbd;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
   div {
     margin-bottom: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #d45454;
     padding: 1em;
   }
